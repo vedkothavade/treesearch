@@ -13,9 +13,9 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center flex-grow">
         <h2 className="text-2xl mb-8">Welcome to CodeSense!</h2>
         <div className="flex flex-row gap-x-4 mb-8">
-          <Link href="/repo" className={buttonVariants({ variant: "default" })}>
+{/*           <Link href="/repo" className={buttonVariants({ variant: "default" })}>
             Have a github repo?
-          </Link>
+          </Link> */}
           <Link
             href="/source"
             className={buttonVariants({ variant: "default" })}
